@@ -1,5 +1,8 @@
 # Todo
 
+- [ ] Brush your teeth at 2:20 PM.
+- [ ] Cleanup your room after that.
+
 You can create todos in Foam.
 
 - [x] This is an example of a todo list item that's complete
