@@ -1,0 +1,2 @@
+encrypted_num,key_num = [ord(i.upper())-64+1 for i in input().replace(" ","")],[ord(i.upper())-64 for i in input()]
+print("".join([chr((i-key_num[n%len(key_num)]+26)%26+64) for n,i in enumerate(encrypted_num)]))
