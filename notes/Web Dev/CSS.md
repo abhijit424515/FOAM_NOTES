@@ -11,6 +11,7 @@
       (however, it's only a shadow representation of the original object, since it's occupied space is still there)
   - Absolute
     - Element is in a different layer than the rest of the document, with the **body** tag being it's parent.
+      - Make parent div relative to use absolute positioning relative to the parent div.
     - top 20px => push from top by 20px, displacing it from the boundary of it's parent (default position is top left)
     - very useful to use absolute positioning for elements bounded by any container tag.
   - Fixed

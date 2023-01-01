@@ -96,6 +96,6 @@ $$
 <T> = -\frac{\hbar^2}{2m} \int{\Psi^{*} \frac{\partial^2{\Psi}}{\partial{x^2}} dx}
 $$
 
-#questions 
+#Questions 
 
 ---

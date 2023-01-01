@@ -79,7 +79,7 @@ cssclass: kanban
 ---
 
 [[HTML]]
-[[CSS]]
+[[CSS_notes]]
 [[JAVASCRIPT]]
 
 [[WebDev_FrontEnd_HTML]]

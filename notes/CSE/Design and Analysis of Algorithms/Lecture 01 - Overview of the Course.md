@@ -12,7 +12,7 @@ Overview:
 - Develop the basic framework (ex. what is a "fast" algorithm)
 - Techniques for designing fast algorithms
   - Problems from optimization, graph theory, geometry, etc.
-  - Unconventional problems (NP-completeness theory)
+  - Unconventional problems (**NP-completeness theory**)
 
 Books: ?
 
@@ -102,11 +102,47 @@ algorithm2:
 
 ---
 
+**Proof of Euclid**:
 ```
-Proof of Euclid:
 If m divides n, then gcd(m,n) = m
 If not, then gcd(m,n) = gcd(n%m, m)
 
-As the loop executes, m and n might change, but there GCD does not
-
+As the loop executes, m and n might change, but there GCD does not change.
+We know that after each iteration, the parameters decrease, and are always natural numbers. 
+Hence, the loop must terminate.
 ```
+
+**Theorem**:
+If Euclid is called with values `p,q`, i.e. `Euclid(p,q)`, then if `p<q`, then in each iteration, the sum of the values of `p,q` will decrease by atleast a factor of `1.5`.
+
+$$
+\implies \text{No of iterations } \leq \log_{1.5}{p+q} 
+$$
+
+**Proof**:
+Beginning of iteration $\rightarrow$ `m=p, n=q`
+After one iteration $\rightarrow$ `m=p', n=q'`
+$$
+\text{Ratio: } \frac{p+q}{p'+q'}
+$$
+
+We know `p' = q mod p, q' = p`.
+Since `p<q`, 
+$$
+p'+q' = p + (q\text{ mod } p) \leq q
+$$
+
+So, 
+$$
+\begin{align*}
+p' + q' + 2(p'+q') &< p + p + 2q \\
+\implies 3(p'+q') &< 2(p+q) \\
+\implies \text{Ratio} &> 3/2 \\
+\end{align*}
+$$
+
+---
+
+## Conclusions
+- Study properties of whatever we compute, and this helps in designing fast algorithms.
+- Counting iterations, which will be useful in the future.
