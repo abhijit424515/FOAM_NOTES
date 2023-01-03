@@ -1,5 +1,17 @@
 # Todo
 
+## 02 Jan Evening and Night
+- [x] 5:25 - take WD and rag cloth + water in allen bag
+- [x] 5:30 - go for snacks
+- [x] 5:45 - clean and oil cycle
+- [ ] 6:15 - take out soap, shampoo, mug, scrubber, towel, and new set of clothes, and take a bath
+- [x] Rupyz meet at 7
+- [ ] Finish telegram frontend
+- [ ] Finish today and tomorrow's classwork
+- [ ] 6:00 - wash clothes
+- [ ] Chocolate Stay meet at 11
+
+## 02 Jan Morning
 - [x] charge mobile and watch
 - [x] setup strava
 - [ ] decide route for tomorrow's run
